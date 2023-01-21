@@ -18,14 +18,14 @@ Quando as forças resistentes, como a resistência do ar, são apreciáveis ent�
 Pela análise do gráfico obtido verifica-se que ocorre um amortecimento gradual da amplitude e da velocidade angular devido à resistência do ar. 
  
 Para compilar colocamos na mesma pasta o ficheiro CMakeLists e o main.cpp e no terminal escrevemos:
-<strong>cmake -S . -B out
-cmake --build out
+<strong>cmake -S . -B out</strong>
+<strong>cmake --build out</strong>
 
-OU
+<strong>OU</strong>
 
-cmake -S . -B out 
-cd out 
-make</strong>
+<strong>cmake -S . -B out</strong> 
+<strong>cd out </strong>
+<strong>make</strong>
 
 
 
