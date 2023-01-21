@@ -39,7 +39,7 @@ Para compilar colocamos na mesma pasta o ficheiro CMakeLists e o main.cpp e no t
 - <strong>C++</strong>
 - <strong>QtCreator</strong>
 - <strong>CMake</strong>
-- - <strong>MacOS</strong>
+- <strong>MacOS</strong>
 
 💬 Fale comigo
 ------------------
