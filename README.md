@@ -5,12 +5,27 @@
 
 
 <p align="center">
-Uma pagina com os links das minhas redes sociais
+Grafico sobre Pêndulo Gravítico
 </p>
 
-📌 Minha pagina de redes sociais
+📌 Minha pagina do Pêndulo Gravítico
 ------------------
-A Ideia surgiu com o objetivo colocar os links das minhas redes sociais numa pagina web de uma maneira amigável e simples. 
+EfolioB de Física Geral, programa que simula o grafico do movimento de um Pêndulo, baseando numa formula para angulos pequenos, o metodo aplicado foi o Huen, este programa também cria um ficheiro .CSV com a tabela com os resultados esperados.
+A forma de criar o gráfico foi com a biblioteca GNUPLOT, não existe parte gráfica no C++, existe bibliotecas feitas em C++ que utilizão interfaces gráficas.
+
+O pêndulo gravítico tem um movimento harmónico simples quando todas as forças resistentes não, são consideradas.
+Quando as forças resistentes, como a resistência do ar, são apreciáveis então verifica-se uma diminuição exponencial da amplitude e da velocidade angular ao longo do tempo.
+Pela análise do gráfico obtido verifica-se que ocorre um amortecimento gradual da amplitude e da velocidade angular devido à resistência do ar. 
+ 
+Para compilar colocamos na mesma pasta o ficheiro CMakeLists e o main.cpp e no terminal escrevemos:
+<strong>cmake -S . -B out
+cmake --build out
+
+OU
+
+cmake -S . -B out 
+cd out 
+make</strong>
 
 
 
@@ -20,9 +35,10 @@ A Ideia surgiu com o objetivo colocar os links das minhas redes sociais numa pag
 🔧 Tecnologias utilizadas:
 ------------------
 
-- <strong>JAVASCRIPT</strong>
-- <strong>HTML5</strong>
-- <strong>CSS3</strong>
+- <strong>C++</strong>
+- <strong>QtCreator</strong>
+- <strong>CMake</strong>
+- - <strong>MacOS</strong>
 
 💬 Fale comigo
 ------------------
