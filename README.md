@@ -14,7 +14,7 @@ A Ideia surgiu com o objetivo colocar os links das minhas redes sociais numa pag
 
 
 
-<img src="cplusplusgrafico.png" >
+<img src="grafico.jpg" >
 
 
 🔧 Tecnologias utilizadas:
