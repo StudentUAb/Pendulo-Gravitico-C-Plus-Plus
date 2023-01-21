@@ -17,17 +17,18 @@ O pêndulo gravítico tem um movimento harmónico simples quando todas as força
 Quando as forças resistentes, como a resistência do ar, são apreciáveis então verifica-se uma diminuição exponencial da amplitude e da velocidade angular ao longo do tempo.
 Pela análise do gráfico obtido verifica-se que ocorre um amortecimento gradual da amplitude e da velocidade angular devido à resistência do ar. 
  
-Para compilar colocamos na mesma pasta o ficheiro CMakeLists e o main.cpp e no terminal escrevemos:
-<strong>cmake -S . -B out</strong>
-<strong>cmake --build out</strong>
+Para compilar colocamos na mesma pasta o ficheiro CMakeLists e o main.cpp e no terminal escrevemos:<br>
+<br>
+<strong>cmake -S . -B out</strong><br>
+<strong>cmake --build out</strong><br>
+<br>
+<strong>OU</strong><br>
+<br>
+<strong>cmake -S . -B out</strong> <br>
+<strong>cd out </strong><br>
+<strong>make</strong><br>
 
-<strong>OU</strong>
-
-<strong>cmake -S . -B out</strong> 
-<strong>cd out </strong>
-<strong>make</strong>
-
-
+<br>
 
 <img src="grafico.jpg" >
 
